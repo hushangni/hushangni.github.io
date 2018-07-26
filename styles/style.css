@@ -1,0 +1,86 @@
+* {
+    /* border: 1px solid peachpuff; */
+}
+
+html {
+    font-size:  62.5%;
+    font-family: 'Noto Sans', sans-serif;
+    color: #444;;
+}
+
+body {
+    background: linear-gradient(#8ca6db,  #b993d6);
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    font-size: 5.8rem;
+    color: #fff;
+    font-family: 'Great Vibes', cursive;
+    letter-spacing: 0.5rem;
+    transform: rotate(-8deg);
+    margin-bottom: 50px;;
+}
+
+h2 {
+    font-size: 2.3rem;
+    position: absolute;
+    color: #6869b8;
+    top: 40%;
+    left: 52%;
+}
+
+h3 {
+    font-size: 2em;
+    margin-bottom: 1%;
+    color: #6d85d6;
+}
+
+p {
+    font-size: 1.2rem;;
+}
+
+a {
+    color: #999;
+    text-decoration: none;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.contentGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;;
+}
+
+.project {
+    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 2%;
+    transition: 0.3s;
+}
+
+.project:hover {
+    box-shadow: 0 0 10px 3px #888;
+    transform: rotate(-5deg);
+}
+
+.projectText {
+    text-align: center;
+    padding: 10%;
+}
+
